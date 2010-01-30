@@ -1,0 +1,7 @@
+emolRTE
+
+Unobtrusive, unbloated Rich Text Editor for JQuery. 
+
+It should work with all major browsers (IE 6+, Firefox 2+, Opera 9+, Safari 3+) and degrades gracefully to textarea field for others.
+
+Needs more testing. Feedback very welcome.

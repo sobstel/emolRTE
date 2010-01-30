@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<title>Even MOre Lightweight Rich Text Editor </title>
+<style type="text/css">
+.rte,.emolrte-iframe{display:block;clear:left;width:400px;height:200px;border:1px solid #666}
+.emolrte-toolbar{margin-bottom:5px}
+.emolrte-toolbar a{float:left;display:block;width:20px;height:20px;margin-right:3px;border:1px solid #fff}
+.emolrte-toolbar a:hover{border-color:#aaa;background:#eee}
+.emolrte-toolbar a img{border:none;padding:2px}
+</style>
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">
+google.load('jquery', '1');
+google.setOnLoadCallback(function(){
+    $('.rte').emolrte({
+        cssFile: 'rte.css',
+        tools: rteLiteTools
+    });
+});
+</script>
+<script type="text/javascript" src="jquery.emolrte.js"></script>
+<script type="text/javascript" src="jquery.emolrte.tools.js"></script>
+</head>
+<body>
+<div id="main">
+
+<h1>emolRTE - <b>E</b>ven <b>MO</b>re <b>L</b>ightweight <b>R</b>ich <b>T</b>ext <b>E</b>ditor</h1>
+
+<p>Unobtrusive, unbloated Rich Text Editor for JQuery. It should work with all major browsers (IE 6+, Firefox 2+, Opera 9+, Safari 3+) and degrades gracefully to textarea field for others.</p>
+<p>Needs more testing. Feedback very welcome.</p>
+<p>Various browsers may output different HTML code.</p>
+
+<form>
+<textarea class="rte">
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+</textarea>
+
+<br><br>
+
+<textarea class="rte">
+jQuery RTE 2
+</textarea>
+
+</form>
+
+<p>Made by przemek&#64;sobstel&#46;org (<a href="http://segfaultlabs.com/">segfaultlabs.com</a>).</p>
+<p>Inspired by <a href="http://batiste.dosimple.ch/blog/2007-09/">Batiste Bieler's lightweight RTE jQuery Plugin</a>.</p>
+<p>Icons by <a href="http://www.famfamfam.com/">Mark James</a>.</p>
+
+
+</body>
+</html>
