@@ -1,6 +1,8 @@
-emolRTE
+emolRTE (Even MOre Lightweight Rich Text Editor)
 
-Unobtrusive, unbloated Rich Text Editor for JQuery. 
+Yet another unobtrusive and unbloated JavaScript WYSIWYG online editor for jQuery. 
+
+Just a couple of JS files (6.4kb) + pack of 31 icons (11.6kb).
 
 It should work with all major browsers (IE 6+, Firefox 2+, Opera 9+, Safari 3+) and degrades gracefully to textarea field for others.
 
